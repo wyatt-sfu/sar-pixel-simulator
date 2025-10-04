@@ -1,0 +1,30 @@
+{
+    "processing_type": "cpu",
+    "gpu_num": 3,
+    "threads_per_proc": 6,
+    "datatype": "float32",
+    "project_dir": "C:/dev/fdtd_test/rough_dielectric/",
+
+    "frequency_hz": 5.4e9,
+    "polarization": "HH",
+    "theta_angle_deg": 20.0,
+    "phi_angle_deg": 0.0,
+    "incident_duration": 8.0,
+    "illumination_width": 8.0,
+    "generate_new": false,
+
+    "size_x": 0.75,
+    "size_y": 0.75,
+    "size_z_material": 0.5,
+    "simulation_duration": 10.0,
+    "cell_size": 0.0022,
+    "unit": "metre",
+
+    "material_fraction": 0.7,
+
+    "disp_inc_results": false,
+    "disp_inc_sim_movie": false,
+    "disp_debug": false,
+    "disp_main_sim_movie": false,
+    "disp_materials": true
+}

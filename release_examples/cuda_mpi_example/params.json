@@ -1,0 +1,31 @@
+{
+    "processing_type": "gpu",
+    "gpu_num": [
+        0,
+        1,
+        2,
+        3
+    ],
+    "threads_per_proc": 6,
+    "datatype": "float32",
+    "project_dir": "C:/dev/fdtd_test/cuda_mpi_example",
+    "frequency_hz": 5.4e9,
+    "polarization": "HH",
+    "theta_angle_deg": 20.0,
+    "phi_angle_deg": 0.0,
+    "incident_duration": 8.0,
+    "illumination_width": 8.0,
+    "generate_new": false,
+    "size_x": 14.0,
+    "size_y": 14.0,
+    "size_z_material": 4.0,
+    "simulation_duration": 16.0,
+    "cell_size": 0.025,
+    "unit": "wavelength",
+    "material_fraction": 0.7,
+    "disp_inc_results": false,
+    "disp_inc_sim_movie": false,
+    "disp_debug": false,
+    "disp_main_sim_movie": false,
+    "disp_materials": false
+}

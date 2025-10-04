@@ -1,0 +1,29 @@
+{
+    "processing_type": "gpu",
+    "threads_per_proc": 6,
+    "datatype": "float32",
+    "project_dir": "C:/dev/fdtd_test/simple_examples",
+
+    "frequency_hz": 5.4e9,
+    "polarization": "HH",
+    "theta_angle_deg": 20.0,
+    "phi_angle_deg": 0.0,
+    "incident_duration": 8.0,
+    "illumination_width": 8.0,
+    "generate_new": false,
+
+    "size_x": 10.0,
+    "size_y": 10.0,
+    "size_z_material": 4.0,
+    "simulation_duration": 15.0,
+    "cell_size": 0.05,
+    "unit": "wavelength",
+    
+    "material_fraction": 0.65,
+
+    "disp_inc_results": false,
+    "disp_inc_sim_movie": false,
+    "disp_debug": false,
+    "disp_main_sim_movie": false,
+    "disp_materials": false
+}
